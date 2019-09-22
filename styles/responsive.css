@@ -173,6 +173,10 @@
 	{
 		display: block;
 	}
+	.header_container
+	{
+		padding-left: 40px;
+	}
 	.main_nav
 	{
 		display: none;
@@ -180,6 +184,10 @@
 	.home_images
 	{
 		display: none;
+	}
+	.home_social_container
+	{
+		display: none !important;
 	}
 	.work
 	{
@@ -326,8 +334,7 @@
 	}
 	.header_container
 	{
-		padding-left: 40px;
-		padding-right: 40px;
+		height: 94px;
 	}
 	.work_image, .work_cta
 	{
@@ -400,6 +407,11 @@
 	.container_1440
 	{
 		max-width: 100%;
+	}
+	.header_container
+	{
+		height: 80px;
+		padding-left: 30px;
 	}
 	.work_image, .work_cta
 	{
