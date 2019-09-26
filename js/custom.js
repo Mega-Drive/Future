@@ -171,8 +171,9 @@ $(document).ready(function()
 			slider.owlCarousel(
 			{
 				items:1,
-				autoplay:false,
+				autoplay:true,
 				autoplayTimeout:8000,
+				smartSpeed:1200,
 				loop:true,
 				nav:false
 			})
